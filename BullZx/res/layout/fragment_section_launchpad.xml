@@ -1,0 +1,200 @@
+<!--
+  Copyright 2012 The Android Open Source Project
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+      http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+<Button
+            android:id="@+id/demo_external_activity"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="45dp"
+            android:text="@string/demo_external_activity" />
+
+        <Button
+            android:id="@+id/demo_collection_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/demo_external_activity"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="40dp"
+            android:text="@string/demo_collection" />
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="53dp"
+            android:layout_toRightOf="@+id/editText6"
+            android:ems="10"
+            android:inputType="textMultiLine" 
+              android:textIsSelectable="false"
+              android:clickable="false" 
+        android:cursorVisible="false" 
+        android:focusable="false" 
+        android:focusableInTouchMode="false"
+        android:text= "$200"
+       />
+
+          
+     
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/editText5"
+            android:layout_alignBottom="@+id/editText5"
+            android:layout_alignLeft="@+id/editText4"
+            android:ems="10"
+            android:inputType="textMultiLine"
+              android:textIsSelectable="false" 
+              android:clickable="false" 
+        android:cursorVisible="false" 
+        android:focusable="false" 
+        android:focusableInTouchMode="false"
+        android:text= "$300"/>
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editText3"
+            android:layout_alignLeft="@+id/editText3"
+            android:layout_marginBottom="14dp"
+            android:ems="10"
+           
+            android:inputType="textMultiLine" 
+              android:textIsSelectable="false"
+              android:clickable="false" 
+        android:cursorVisible="false" 
+        android:focusable="false" 
+        android:focusableInTouchMode="false"
+        android:text= "$50"/>
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editText2"
+            android:layout_alignLeft="@+id/editText1"
+            android:layout_alignParentTop="true"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="textMultiLine"
+            android:textIsSelectable="false" 
+            
+                android:text= "$500"/>
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="39dp"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="textMultiLine"
+            android:textIsSelectable="false"
+            
+                android:text= "AIR" />
+
+       <EditText
+            android:id="@+id/editText5"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editText6"
+            android:layout_marginBottom="27dp"
+            android:layout_toLeftOf="@+id/editText4"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="textMultiLine"
+            android:textIsSelectable="false" 
+            
+          
+                android:text= "Bid value">
+
+          
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editText7"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="24dp"
+            android:layout_toLeftOf="@+id/editText4"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="textMultiLine"
+            android:textIsSelectable="false"
+           
+                android:text= "AIR" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editText1"
+            android:layout_toLeftOf="@+id/editText4"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="textMultiLine"
+            android:text="Open Value"
+            android:textIsSelectable="false"
+             >
+
+            <requestFocus />
+        </EditText>
+
+    </RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="88dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    
+
+</RelativeLayout>
+
+</FrameLayout>

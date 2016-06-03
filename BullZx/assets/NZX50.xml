@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<NZX50>  
+    <stock>  
+        <code>AIA</code>  
+        <name>Auckland International Airport Limited</name>  
+        <move>0.000</move>  
+    </stock>  
+    <stock>  
+        <code>AIR</code>  
+        <name>Air New Zealand Limited (NS)</name>  
+        <move>0.000</move>  
+    </stock>  
+    <stock>  
+        <code>DIL</code>  
+        <name>Diligent Board Member Services INC (NS)</name>  
+        <move>0.000</move>  
+    </stock>  
+    <stock>  
+        <code>GPG</code>  
+        <name>Guinness Peat Group Plc</name>  
+        <move>0.000</move>  
+    </stock>  
+    <stock>  
+        <code>CEN</code>  
+        <name>Contact Energy Limited</name>  
+        <move>0.000</move>  
+    </stock>  
+    <stock>  
+        <code>EBO</code>  
+        <name>Ebos Group Limited</name>  
+        <move>0.000</move>  
+    </stock>  
+    <stock>  
+        <code>FBU</code>  
+        <name>Fletcher Building Limited</name>  
+        <move>0.000</move>  
+    </stock>  
+    <stock>  
+        <code>HNZ</code>  
+        <name>Heartland New Zealand Limited</name>  
+        <move>0.000</move>  
+    </stock>  
+    <stock>  
+        <code>PEB</code>  
+        <name>Pacific Edge Limited</name>  
+        <move>0.000</move>  
+    </stock>  
+    <stock>  
+        <code>MFT</code>  
+        <name>Mainfreight Limited</name>  
+        <move>0.000</move>  
+    </stock>  
+</NZX50>  
